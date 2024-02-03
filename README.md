@@ -1,6 +1,6 @@
 # FTP Server
 
-FTP Server with UI built using Java sockets and threads 
+FTP Server with UI client built using Java sockets and threads 
 
 ## Screenshots
 
