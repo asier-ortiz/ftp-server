@@ -92,7 +92,7 @@ public class ServerThread extends Thread {
                 }
             });
             Message message = new MimeMessage(session);
-            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("ortiz88@hotmail.com"));
+            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("admin@test.com"));
             message.setSubject("File upload confirmation");
             String messageText = String.format("""
                     File %s was uploaded successfully to the server by client %s at %s.
