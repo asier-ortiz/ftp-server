@@ -116,8 +116,6 @@ public class Server extends JFrame implements Runnable {
     }
 
     public static void main(String[] args) {
-        System.out.println("\nHola Eider, no se si el programa tendrá algún fallo al ejecutarlo en Windows por el tema de" +
-                " las rutas ya que lo he hecho en Mac. Si es así me dices y lo probamos en mi portatil. Un saludo.");
         MethodsUtil.setApplicationLookAndFeel();
         Server server = new Server();
         server.setContentPane(server.getServerWindow());
